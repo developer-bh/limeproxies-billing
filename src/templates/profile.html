@@ -1,0 +1,205 @@
+<!--begin content-->
+<section class="main d-flex justify-content-between align-items-stretch flex-wrap flex-md-nowrap flex-lg-nowrap">
+    <!--begin main nav-->
+    <div class="main__nav main_nav">
+        <div class="main_nav__logo">
+            <a href="/"><img src="img/logo.svg" alt="Logo" /></a>
+        </div>
+    </div>
+    <!--end main nav-->
+    <div class="main__content main_content">
+        <!--begin main amount-->
+        <div class="main_content__amount main_amount d-flex align-items-center">
+            <div class="main_amount__text">
+                <h3 class="title">$49.56</h3>
+                <p class="mb-0">Available Credit</p>
+            </div>
+        </div>
+        <!--end main amount-->
+        <!--begin main tabs-->
+        <div class="main__tabs main_tabs">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">Profile</a>
+                    <a class="nav-item nav-link" id="nav-authentication-tab" data-toggle="tab" href="#nav-authentication" role="tab" aria-controls="nav-authentication" aria-selected="false">Authentication</a>
+                    <a class="nav-item nav-link" id="nav-notifications-tab" data-toggle="tab" href="#nav-notifications" role="tab" aria-controls="nav-notifications" aria-selected="false">Notifications</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="profile">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-7">
+                                <div class="border">
+                                    <div class="add__title">
+                                        <h3 class="title">Profile Details</h3>
+                                    </div>
+                                    <div class="profile__form profile_form">
+                                        <form>
+                                            <input type="text" placeholder="Ramesh">
+                                            <input type="text" placeholder="Gupta">
+                                            <input type="email" placeholder="ramesh.gupta@gmail.com">
+                                            <input type="tel" id="phone">
+                                            <input type="text" placeholder="PurpleRain Technologies Private Limited">
+                                            <div class="profile_form__btn">
+                                                <button type="button" data-toggle="modal" data-target="#update_email" class="btn_orange">Update</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-authentication" role="tabpanel" aria-labelledby="nav-authentication-tab">
+                    <div class="authentication">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-4">
+                                <div class="border">
+                                    <div class="add__title">
+                                        <h3 class="title">Change Password</h3>
+                                    </div>
+                                    <div class="authentication__form authentication_form">
+                                        <form>
+                                            <input type="text" placeholder="Current Password">
+                                            <input type="text" placeholder="New Password">
+                                            <input type="text" placeholder="Confirm New Password">
+                                            <div class="authentication_form__btn">
+                                                <button type="button" data-toggle="modal" data-target="#update_auth" class="btn_orange">Update</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-notifications" role="tabpanel" aria-labelledby="nav-notifications-tab">
+                    <div class="notifications">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-7">
+                                <div class="border">
+                                    <div class="add__title">
+                                        <h3 class="title">Configure your Notifications</h3>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">SMS</th>
+                                                <th scope="col">Email</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Outage Alert</td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle1" class="checkbox" checked />
+                                                            <label for="toggle1" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle2" class="checkbox" checked />
+                                                            <label for="toggle2" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bandwidth Alert</td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle3" class="checkbox" />
+                                                            <label for="toggle3" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle4" class="checkbox" />
+                                                            <label for="toggle4" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Proxy assignment & Termination</td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle5" class="checkbox" checked />
+                                                            <label for="toggle5" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle6" class="checkbox" checked />
+                                                            <label for="toggle6" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Product Expiry</td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle7" class="checkbox" />
+                                                            <label for="toggle7" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="switcher">
+                                                            <input type="checkbox" id="toggle8" class="checkbox" />
+                                                            <label for="toggle8" class="switch"></label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end main tabs-->
+    </div>
+</section>
+<!--end content-->
+
+
+<!--Modal update email-->
+<div class="modal fade modal_canceled" id="update_email" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>An otp has been sent to your new phone number, please verify it to update the same.</p>
+                <button type="button" class="btn_orange" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal update email-->
+<div class="modal fade modal_canceled" id="update_phone" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>We will send a verification e-mail to your new id, please confirm to update the same.</p>
+                <button type="button" class="btn_orange" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal update auth-->
+<div class="modal fade modal_canceled" id="update_auth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Your Password has been updated Successfully.</p>
+                <button type="button" class="btn_orange" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

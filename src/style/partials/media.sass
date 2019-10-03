@@ -1,0 +1,157 @@
+$r-768: 768px
+$r-992: 992px
+$r-1024: 1024px
+$r-1200: 1200px
+
+body
+  // break max-1024
+  @media only screen and (max-width: $r-768 - 1)
+    .main_nav
+      width: 100%
+      max-width: 100%
+      min-height: auto
+      height: 87px
+    .main_tabs
+      .nav-tabs
+        .nav-item
+          margin-right: 0
+          width: 100%
+    .add
+      &__title
+        padding: 15px
+      &__content
+        padding: 15px
+        .line
+          margin-bottom: 20px
+    .add_method
+      .nav-tabs
+        justify-content: space-between
+        .nav-item
+          width: 32%
+          &:first-child
+            span
+              img
+                height: 30px
+          span
+            width: 100%
+            img
+              height: 13px
+    .new_cards, .saved_cards
+      padding: 15px
+      margin-bottom: 20px
+      &__title
+        padding-right: 0
+    .saved_info
+      &__details
+        padding: 10px
+        margin: 20px 0
+        .check
+          span
+            width: 10px
+            height: 10px
+            &:before
+              width: 6px
+              height: 6px
+          .title
+            padding-left: 5px
+            font-size: 12px
+        .title
+          font-size: 12px
+        img
+          height: 8px
+        a
+          font-size: 12px
+      &__condition
+        label
+          margin-left: 10px
+      &__form
+        margin-bottom: 0
+        input:nth-of-type(2), input:nth-of-type(3)
+          width: 100%
+    .summary
+      &__form
+        padding: 15px
+        margin-bottom: 20px
+      &__info
+        padding: 0 15px 15px 15px
+    .available_credits
+      .border
+        padding: 15px
+      &__price
+        width: 50%
+        margin-bottom: 15px
+        .title
+          font-size: 12px
+        span
+          font-size: 14px
+      &__renew
+        width: 50%
+        margin-bottom: 15px
+        .title
+          font-size: 12px
+      &__btn
+        a
+          width: 100px
+          font-size: 12px
+    .switcher
+      .switch
+        margin-bottom: 3px
+    .current_plans_wrap
+      margin: 15px!important
+      padding: 15px 0
+      &__item
+        margin-bottom: 15px
+    .modal_cancel
+      .add__title
+        padding: 15px
+      &__list
+        padding: 15px
+      &__btn
+        padding: 0 15px 15px 15px
+    .update_form
+      padding: 15px
+      form
+        label
+          flex-direction: column
+          align-items: flex-start
+          span
+            width: 100%
+          input
+            width: 100%
+          &:nth-of-type(3)
+            width: 60%
+            input
+              width: 100%
+          &:nth-of-type(4)
+            width: 35%
+    .history
+      .table
+        thead
+          tr
+            display: flex
+            justify-content: space-between
+            th
+              width: 150px
+        tbody
+          tr
+            display: flex
+            justify-content: space-between
+            td
+              width: 150px
+    .profile
+      &__form
+        padding: 15px
+        form
+          input
+            &:first-child, &:nth-of-type(2)
+              width: 100%
+    .authentication
+      &__form
+        padding: 15px
+
+  // break max-1024
+  @media only screen and (max-width: $r-1024 - 1)
+    .main_amount
+      padding: 0 15px
+    .main_tabs
+      padding: 35px 15px

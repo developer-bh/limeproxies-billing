@@ -1,0 +1,115 @@
+// Global
+
+body
+  font-family: 'Source Sans Pro', sans-serif!important
+
+*
+  box-sizing: border-box
+
+.title
+  margin: 0
+
+.border
+  border-radius: 7px
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1)
+
+ul
+  li
+    list-style: none
+
+button
+  outline: 0!important
+  cursor: pointer
+  &:focus, &:active
+    outline: 0
+
+.switcher
+  text-align: center
+  .switch
+    position: relative
+    display: inline-block
+    width: 45px
+    height: 23px
+    background-color: white
+    border: 1px solid #e2e9ef
+    border-radius: 20px
+    transition: all 0.3s
+    margin-bottom: 15px
+    cursor: pointer
+  .switch::after
+    content: ''
+    position: absolute
+    width: 18px
+    height: 18px
+    border-radius: 50%
+    background-color: #b3b3b3
+    top: 1px
+    left: 1px
+    transition: all 0.3s
+  .checkbox:checked + .switch::after
+    left: 23px
+    background-color: #39b54a
+  .checkbox:checked + .switch
+    background-color: white
+  .checkbox
+    display : none
+
+// Colors
+
+$green: #78ad30
+$green_dark: #39b54a
+$border: #e2e9ef
+$grey: #5e6977
+$orange: #f26d4f
+$black: #3c4041
+$blue: #0694ea
+
+// Buttons
+
+.btn_orange
+  display: flex
+  align-items: center
+  justify-content: center
+  color: white
+  background-color: $orange
+  border: 1px solid $orange
+  font-size: 14px
+  font-weight: 600
+  transition: 0.3s
+  &:hover
+    transition: 0.3s
+    color: $orange
+    text-decoration: none
+    background-color: white
+
+.btn_grey
+  display: flex
+  align-items: center
+  justify-content: center
+  color: white
+  background-color: #b3b3b3
+  border: 1px solid #b3b3b3
+  font-size: 14px
+  font-weight: 600
+  transition: 0.3s
+  &:hover
+    transition: 0.3s
+    color: #b3b3b3
+    text-decoration: none
+    background-color: white
+
+.btn_green
+  display: flex
+  align-items: center
+  justify-content: center
+  color: white
+  background-color: $green_dark
+  border: 1px solid $green_dark
+  font-size: 14px
+  font-weight: 600
+  transition: 0.3s
+  &:hover
+    transition: 0.3s
+    color: $green_dark
+    text-decoration: none
+    background-color: white
