@@ -5,7 +5,7 @@
   "author": "Hrytsenko Bohdan <hrytsenkobohdan@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "livereload": "^0.7.0",
     "wiredep": "^4.0.0"
   },
